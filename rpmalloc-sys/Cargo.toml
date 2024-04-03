@@ -21,6 +21,7 @@ cc = "1"
 
 [features]
 default = []
+dynamic_link = []               # Compile with BUILD_DYNAMIC_LINK=1
 preload = []                    # Compile with ENABLE_PRELOAD=1
 statistics = []                 # Compile with ENABLE_STATISTICS=1
 validate_args = []              # Compile with ENABLE_VALIDATE_ARGS=1

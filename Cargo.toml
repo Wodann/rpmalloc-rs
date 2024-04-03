@@ -24,6 +24,7 @@ rpmalloc-sys = { version = "0.2.2", path = "rpmalloc-sys", features = ["preload"
 
 [features]
 default = []
+dynamic_link = []                                                     # Compile with BUILD_DYNAMIC_LINK=1
 statistics = ["rpmalloc-sys/statistics"]                              # Compile with ENABLE_STATISTICS=1
 validate_args = ["rpmalloc-sys/validate_args"]                        # Compile with ENABLE_VALIDATE_ARGS=1
 asserts = ["rpmalloc-sys/asserts"]                                    # Compile with ENABLE_ASSERTS=1
